@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+.todo,
+.addnote,
+button{
+    font-family: 'Salsa';
+}
+.todo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 15px;
+}
+h2{
+    text-align: center;
+}
+.border{
+    border: 3px solid rgb(96, 95, 95);
+    padding: 30px;
+    border-radius: 4px;
+}
+.notes{
+    padding:10px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.note{
+    border: 2px solid rgb(211, 211, 211);
+    border-radius: 4px;
+    background: rgb(211, 211, 211);
+    padding:10px 0px;
+
+}
+.checked{
+    text-decoration: line-through;
+    background-color: rgb(212, 235, 212);
+    border-color: rgb(212, 235, 212);;
+}
